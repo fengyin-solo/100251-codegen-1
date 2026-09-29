@@ -4,6 +4,7 @@ import Dashboard from '@/views/Dashboard.vue'
 const Interlock = () => import('@/views/interlock/index.vue')
 const Trackcircuit = () => import('@/views/trackcircuit/index.vue')
 const Signal = () => import('@/views/signal/index.vue')
+const Inspection = () => import('@/views/inspection/index.vue')
 const Pointmachine = () => import('@/views/pointmachine/index.vue')
 const Cable = () => import('@/views/cable/index.vue')
 const Powersupply = () => import('@/views/powersupply/index.vue')
@@ -29,6 +30,7 @@ const router = createRouter({
     { path: '/interlock', name: 'interlock', component: Interlock },
     { path: '/trackcircuit', name: 'trackcircuit', component: Trackcircuit },
     { path: '/signal', name: 'signal', component: Signal },
+    { path: '/inspection', name: 'inspection', component: Inspection },
     { path: '/pointmachine', name: 'pointmachine', component: Pointmachine },
     { path: '/cable', name: 'cable', component: Cable },
     { path: '/powersupply', name: 'powersupply', component: Powersupply },

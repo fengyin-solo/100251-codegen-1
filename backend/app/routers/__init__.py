@@ -9,6 +9,7 @@ from __future__ import annotations
 from app.routers import interlock as router_interlock
 from app.routers import trackcircuit as router_trackcircuit
 from app.routers import signal as router_signal
+from app.routers import inspection as router_inspection
 from app.routers import pointmachine as router_pointmachine
 from app.routers import cable as router_cable
 from app.routers import powersupply as router_powersupply
@@ -27,4 +28,4 @@ from app.routers import tool as router_tool
 from app.routers import regulation as router_regulation
 from app.routers import training as router_training
 
-ROUTERS = [router_interlock, router_trackcircuit, router_signal, router_pointmachine, router_cable, router_powersupply, router_atp, router_balise, router_axlecounter, router_dispatchcenter, router_maintenancewindow, router_relay, router_fuse, router_lightning, router_emergencyresp, router_testrecord, router_fault, router_tool, router_regulation, router_training]
+ROUTERS = [router_interlock, router_trackcircuit, router_signal, router_inspection, router_pointmachine, router_cable, router_powersupply, router_atp, router_balise, router_axlecounter, router_dispatchcenter, router_maintenancewindow, router_relay, router_fuse, router_lightning, router_emergencyresp, router_testrecord, router_fault, router_tool, router_regulation, router_training]
