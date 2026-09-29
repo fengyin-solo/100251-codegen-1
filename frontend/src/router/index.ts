@@ -21,6 +21,7 @@ const Fault = () => import('@/views/fault/index.vue')
 const Tool = () => import('@/views/tool/index.vue')
 const Regulation = () => import('@/views/regulation/index.vue')
 const Training = () => import('@/views/training/index.vue')
+const Inspection = () => import('@/views/inspection/index.vue')
 
 const router = createRouter({
   history: createWebHistory(),
@@ -37,6 +38,7 @@ const router = createRouter({
     { path: '/axlecounter', name: 'axlecounter', component: Axlecounter },
     { path: '/dispatchcenter', name: 'dispatchcenter', component: Dispatchcenter },
     { path: '/maintenancewindow', name: 'maintenancewindow', component: Maintenancewindow },
+    { path: '/inspection', name: 'inspection', component: Inspection },
     { path: '/relay', name: 'relay', component: Relay },
     { path: '/fuse', name: 'fuse', component: Fuse },
     { path: '/lightning', name: 'lightning', component: Lightning },
